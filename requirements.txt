@@ -1,0 +1,5 @@
+pymupdf==1.28.2
+pillow==13.0.0
+pytesseract==0.3.13
+openai==3.33.0
+pydantic==2.14.1

@@ -1,0 +1,36 @@
+{
+  "Dubai": {
+    "aliases": ["A", "AE"],
+    "business_units": ["Dubai CER", "Dubai CER Food", "Dubai Cyber Security"],
+    "business_unit_aliases": {"CCE/RCE": "Dubai CER", "CCE": "Dubai CER", "RCE": "Dubai CER", "CER": "Dubai CER", "Food": "Dubai CER Food", "Cyber Security": "Dubai Cyber Security"},
+    "statuses": ["Completed", "Confirmed", "Frozen"],
+    "audit_types": ["Special Audit", "Special"],
+    "include_backlog": true,
+    "deduplicate": false,
+    "live_enabled": true,
+    "live_confirmation": "Dubai SOP supplied by the user; connection and production access still required",
+    "draft_approval_role": "reviewer",
+    "proposal_required": true,
+    "split_charges": false,
+    "audit_date_comment": true,
+    "tax_jurisdictions": {"Dubai": {"area": "AE10", "rate": "0.05"}, "Other emirates": {"area": "AE11", "rate": "0.05"}},
+    "required_contract_fields": []
+  },
+  "South Africa": {
+    "aliases": ["ZA"],
+    "business_units": [],
+    "business_unit_aliases": {},
+    "statuses": [],
+    "audit_types": ["SV1", "Surveillance 1", "Surveillance Audit 1"],
+    "include_backlog": false,
+    "deduplicate": true,
+    "live_enabled": false,
+    "live_confirmation": "",
+    "draft_approval_role": "country_coordinator",
+    "proposal_required": false,
+    "split_charges": true,
+    "audit_date_comment": false,
+    "tax_jurisdictions": {},
+    "required_contract_fields": ["standard_name", "auditor_name", "audit_dates", "header_attachment", "charge_lines"]
+  }
+}

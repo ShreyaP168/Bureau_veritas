@@ -1,0 +1,32 @@
+[
+  {
+    "source": "D:\\python\\UC\\packages\\underwriting\\cdp_hashing.py",
+    "source_sha256": "6d384a2ab3b8f74c1571504c112593f5945a6f8db536bb07781192c23ba9081f",
+    "destination": "hashing.py",
+    "functions": "complete module"
+  },
+  {
+    "source": "D:\\python\\UC\\packages\\underwriting\\storage.py",
+    "source_sha256": "61a68844541e69d4a7aacb9616119a33e6abe060de1d2b269c19294f3a166392",
+    "destination": "storage.py",
+    "functions": "complete module"
+  },
+  {
+    "source": "D:\\python\\UC\\workers\\underwriting\\intake.py",
+    "source_sha256": "b5268e820ff2cc1b863c24068756c7b1647d336792f085545ba21a99446fa9b6",
+    "destination": "intake.py",
+    "functions": [
+      "extract_zip"
+    ]
+  },
+  {
+    "source": "D:\\python\\UC\\workers\\underwriting\\extraction.py",
+    "source_sha256": "e3b917cc030114287a29852fc6cc107fe7bea8ffab6126dd5def4c45e461c43d",
+    "destination": "evidence.py",
+    "functions": [
+      "_squash",
+      "_tokens",
+      "verify_quotes"
+    ]
+  }
+]
